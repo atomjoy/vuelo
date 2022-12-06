@@ -64,6 +64,43 @@ https://github.com/atomjoy/webi
 https://github.com/atomjoy/vueon
 ```
 
+### Ustawienia Laravel
+
+Zmienić w pliku .env
+
+```sh
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=toor
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=your.email@gmail.com
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=your.email@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
+```
+
+### Ustawienia Vue, google map api key
+
+Zmienić w pliku vue-project/.env
+
+```sh
+# Console log
+VITE_AUTH_STORE_DEBUG=true
+# App default locale
+VITE_LOCALE=en
+# Available locale, first on list always default locale!
+VITE_AVAILABLE_LOCALES="en|pl"
+# Google map key
+VITE_GMAP_KEY=
+```
+
 # Świeża instalacja Vue3 wyczyści wszystko (dev only)
 
 Project w katalogu **vue-project** aplikacji Laravel.

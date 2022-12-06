@@ -1,0 +1,22 @@
+{
+	"home": {
+		"title": "This is the home page",
+		"text": "Many webmasters and designers use Lorem Ipsum as their default text model, and typing 'lorem ipsum' into a search engine will find many pages that are still under construction."
+	},
+	"about": {
+		"title": "This is an about page",
+		"text": "Many webmasters and designers use Lorem Ipsum as their default text model, and typing 'lorem ipsum' into a search engine will find many pages that are still under construction."
+	},
+	"dashboard": {
+		"title": "This is the dashboard page",
+		"text": "Many webmasters and designers use Lorem Ipsum as their default text model, and typing 'lorem ipsum' into a search engine will find many pages that are still under construction."
+	},
+	"logout": {
+		"title": "Logout now",
+		"message": "Good Bye! Have a nice day!"
+	},
+	"changepass": {
+		"title": "Refresh password",
+		"message": "You can change your password here."
+	}
+}

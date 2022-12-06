@@ -1,0 +1,17 @@
+{
+	"title": "Register account",
+	"form_title": "Register",
+	"name_placeholder": "Type your name",
+	"email_placeholder": "Type your email",
+	"password_placeholder": "Type your password",
+	"password": "Password",
+	"password_confirmation_placeholder": "Type your password again",
+	"password_confirmation": "Repeat password",
+	"email": "Email address",
+	"name": "Name",
+	"button": "Register",
+	"accept_policy": "Accept policy",
+	"policy_link": "Policy",
+	"login_link": "Sign In",
+	"reset_link": "Reset password"
+}

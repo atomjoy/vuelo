@@ -1,0 +1,12 @@
+{
+	"title": "Zaloguj sie do swojego konta",
+	"form_title": "Logowanie",
+	"email_placeholder": "Podaj adres email",
+	"password_placeholder": "Podaj hasło",
+	"password": "Hasło",
+	"email": "Adres email",
+	"button": "Zaloguj",
+	"remember_me": "Zapamietaj mnie",
+	"register_link": "Utwórz konto",
+	"reset_link": "Odzyskaj hasło"
+}

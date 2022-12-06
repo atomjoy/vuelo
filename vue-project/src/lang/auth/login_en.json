@@ -1,0 +1,12 @@
+{
+	"title": "Sign In to your account",
+	"form_title": "Sign In",
+	"email_placeholder": "Type your email",
+	"password_placeholder": "Type your password",
+	"password": "Password",
+	"email": "Email address",
+	"button": "Login",
+	"remember_me": "Remember me",
+	"register_link": "Create account",
+	"reset_link": "Reset password"
+}

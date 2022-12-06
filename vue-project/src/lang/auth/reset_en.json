@@ -1,0 +1,9 @@
+{
+	"title": "Reset your password",
+	"form_title": "Password Reset",
+	"email_placeholder": "Type your email",
+	"email": "Email address",
+	"button": "Send Password",
+	"register_link": "Create account",
+	"login_link": "Sign In"
+}

@@ -1,0 +1,13 @@
+{
+	"title": "Change password",
+	"form_title": "Change password",
+	"password_current_placeholder": "Type your current password",
+	"password_current": "Current password",
+	"password_placeholder": "Type your password",
+	"password": "Password",
+	"password_confirmation_placeholder": "Type your password again",
+	"password_confirmation": "Repeat password",
+	"button": "Change",
+	"page_title": "Change password",
+	"page_message": "You can change your password here."
+}

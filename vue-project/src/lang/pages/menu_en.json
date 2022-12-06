@@ -1,0 +1,10 @@
+{
+	"home": "Home",
+	"about": "About",
+	"login": "Sign In",
+	"dashboard": "Dashboard",
+	"logout": "Logout",
+	"change-password": "Change password",
+	"settings": "Settings",
+	"messages": "Messages"
+}

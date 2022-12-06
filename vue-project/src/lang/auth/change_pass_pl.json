@@ -1,0 +1,13 @@
+{
+	"title": "Zmiana hasła",
+	"form_title": "Zmiana hasła",
+	"password_current_placeholder": "Podaj aktualne hasło",
+	"password_current": "Aktualne hasło",
+	"password_placeholder": "Podaj hasło",
+	"password": "Hasło",
+	"password_confirmation_placeholder": "Podaj hasło ponownie",
+	"password_confirmation": "Powtórz hasło",
+	"button": "Zmień",
+	"page_title": "Zmiana hasła",
+	"page_message": "Tutaj możesz dokonać zmiany swojego hasła."
+}

@@ -1,0 +1,17 @@
+{
+	"title": "Zarejestruj konto",
+	"form_title": "Rejestracja",
+	"name_placeholder": "Podaj imię",
+	"email_placeholder": "Podaj adres email",
+	"password_placeholder": "Podaj hasło",
+	"password": "Hasło",
+	"password_confirmation_placeholder": "Podaj hasło ponownie",
+	"password_confirmation": "Powtórz hasło",
+	"email": "Adres email",
+	"name": "Imię",
+	"button": "Zarejestruj się",
+	"accept_policy": "Akceptacja regulaminu",
+	"policy_link": "Regulamin",
+	"login_link": "Zaloguj się",
+	"reset_link": "Odzyskaj hasło"
+}

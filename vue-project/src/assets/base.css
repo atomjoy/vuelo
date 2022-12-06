@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/* Settings */
+:root {
+	--font-family: 'Poppins', sans-serif;
+	--section-gap: 160px;
+	--radius: 10px;
+	--font-size: 16px;
+}
+
+/* Light theme */
+:root {
+	--bg: #fff;
+	--bg-light: #fafafa;
+
+	--color: #6f6af8;
+	--color-bg: #6f6af840;
+	--color-text: #020925;
+
+	--placeholder: #6f6af866;
+
+	--input-bg: #f5f6fa;
+	--input-border-color: #e6e7ed;
+
+	--link-hover-bg: hsla(268, 96%, 70%, 0.2);
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #26221d;
+		--bg-light: #31271f;
+
+		--color: #d8a862;
+		--color-bg: #d8a96252;
+		--color-text: #fefefe;
+
+		--placeholder: #d9b888;
+
+		--input-bg: var(--bg);
+		--input-border-color: var(--bg);
+
+		--link-hover-bg: hsla(23, 99%, 66%, 0.2);
+	}
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	box-sizing: border-box;
+	position: relative;
+	font-weight: normal;
+	outline: none;
+}
+
+body {
+	min-height: 100vh;
+	color: var(--color-text);
+	background: var(--bg);
+	transition: color 0.5s, background-color 0.5s;
+	line-height: 1.6;
+	font-family: var(--font-family), Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: var(--font-size);
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

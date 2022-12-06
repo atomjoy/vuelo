@@ -1,0 +1,18 @@
+{
+	"home": {
+		"title": "Witaj na stronie głównej",
+		"text": "Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie."
+	},
+	"about": {
+		"title": "Witaj na stronie onas",
+		"text": "Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie."
+	},
+	"dashboard": {
+		"title": "Witaj w panelu klienta",
+		"text": "Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie."
+	},
+	"logout": {
+		"title": "Wyloguj się",
+		"message": "Do Zobaczenia! Miłego Dnia!"
+	}
+}

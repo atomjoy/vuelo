@@ -1,10 +1,10 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import PageItem from '@/components/pages/PageItem.vue'
-import Alert from '@/components/Alert.vue'
+import Alert from '@/components/auth/Alert.vue'
 import CheckboxPolicy from '@/components/input/CheckboxPolicy.vue'
 import Title from '@/components/PageTitle.vue'
-import LoaderCircle from '@/components/Loader.vue'
+import LoaderCircle from '@/components/auth/Loader.vue'
 import { useAuthStore } from '@/stores/auth.js'
 
 const refresh = ref(1)

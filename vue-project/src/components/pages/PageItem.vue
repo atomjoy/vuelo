@@ -9,5 +9,7 @@ import PageMenu from '@/components/pages/PageMenu.vue'
 		<slot name="content"></slot>
 	</div>
 
-	<slot></slot>
+	<div id="page-footer">
+		<slot name="footer"></slot>
+	</div>
 </template>

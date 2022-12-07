@@ -7,8 +7,9 @@ import axios from 'axios'
 const { t, locale } = useI18n({ useScope: 'global' })
 
 onMounted(async () => {
+	// Set server locale
 	const res = await axios.get('web/api/locale/' + locale.value)
-	console.log(locale, res.data)
+	console.log('App set locale', locale.value, res.data.alert)
 })
 </script>
 

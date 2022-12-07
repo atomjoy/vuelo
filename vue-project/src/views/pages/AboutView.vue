@@ -46,9 +46,11 @@ function getPolygon(e) {
 			<!-- <MapPolygonDraw @polygonCreated="getPolygon" :lat="49.299" :lng="19.949" :zoom="5" /> -->
 			<!-- <p>Polygon {{ createdPolygon }}</p> -->
 		</template>
-	</PageItem>
 
-	<PageFooter />
+		<template #footer>
+			<PageFooter />
+		</template>
+	</PageItem>
 </template>
 
 <style>

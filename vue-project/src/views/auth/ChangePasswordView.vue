@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import PageItem from '@/components/pages/PageItem.vue'
-import Alert from '@/components/Alert.vue'
+import Alert from '@/components/auth/Alert.vue'
 import Title from '@/components/PageTitle.vue'
 import { useAuthStore } from '@/stores/auth.js'
 

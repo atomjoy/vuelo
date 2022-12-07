@@ -1,9 +1,9 @@
 <script setup>
 import { ref } from 'vue'
 import PageItem from '@/components/pages/PageItem.vue'
-import Alert from '@/components/Alert.vue'
+import Alert from '@/components/auth/Alert.vue'
 import Title from '@/components/PageTitle.vue'
-import LoaderCircle from '@/components/Loader.vue'
+import LoaderCircle from '@/components/auth/Loader.vue'
 import { useAuthStore } from '@/stores/auth.js'
 
 const refresh = ref(1)

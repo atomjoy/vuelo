@@ -14,9 +14,11 @@ import PageFooter from '@/components/pages/PageFooter.vue'
 			<TitleTag msg="text.home.title" />
 			<p>{{ $t('text.home.text') }}</p>
 		</template>
-	</PageItem>
 
-	<PageFooter />
+		<template #footer>
+			<PageFooter />
+		</template>
+	</PageItem>
 </template>
 
 <style>

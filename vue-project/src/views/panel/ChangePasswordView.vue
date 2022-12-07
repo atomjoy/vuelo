@@ -2,10 +2,10 @@
 import { ref } from 'vue'
 import PanelTitle from '@/components/panel/PanelTitle.vue'
 import PanelPageItem from '@/components/panel/PanelPageItem.vue'
-import Alert from '@/components/Alert.vue'
 import Title from '@/components/PageTitle.vue'
 import Topbar from '@/components/panel/Topbar.vue'
-import LoaderCircle from '@/components/Loader.vue'
+import Alert from '@/components/auth/Alert.vue'
+import LoaderCircle from '@/components/auth/Loader.vue'
 import { useAuthStore } from '@/stores/auth.js'
 
 const refresh = ref(1)

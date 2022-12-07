@@ -4,8 +4,8 @@
 /public/storage
 /storage/*.key
 /vendor
+.env.dev
 .env.backup
-.env.production
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
@@ -16,5 +16,4 @@ yarn-error.log
 /.idea
 /packages/*/*/vendor
 /vue-project/node_modules
-/vue-project/package-lock.json
 

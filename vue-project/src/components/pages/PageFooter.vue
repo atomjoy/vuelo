@@ -1,9 +1,9 @@
 <template>
-	<div id="app-footer">Footer content goes here</div>
+	<div class="page-footer">Footer content goes here</div>
 </template>
 
 <style scoped>
-#app-footer {
+.page-footer {
 	float: left;
 	width: 100%;
 	padding: 20px;

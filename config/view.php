@@ -1,15 +1,9 @@
 <?php
 
-$cache = true;
-
-if (config('debug') == true) {
-	$cache = false;
-}
-
 return [
 
 	// Disable view cache for vue-project
-	'cache' => $cache,
+	'cache' => config('debug'),
 
 	/*
     |--------------------------------------------------------------------------

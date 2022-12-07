@@ -5,7 +5,7 @@ import PageMenu from '@/components/pages/PageMenu.vue'
 <template>
 	<PageMenu />
 
-	<div id="app-content">
+	<div id="page-content">
 		<slot name="content"></slot>
 	</div>
 

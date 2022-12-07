@@ -20,14 +20,6 @@ php artisan migrate
 php artisan migrate:fresh
 ```
 
-### Wyczyść view cache
-
-Po kompilacji projektu Vue wyczyść view cache w Laravel.
-
-```sh
-php artisan view:clear
-```
-
 ### Uruchom server lokalny aplikacji
 
 W katalogu głównym aplikacji Laravela uruchom server http i wszystko powinno działać (jak o czymś nie zapomniałem).
@@ -53,6 +45,16 @@ php ../artisan serve
 
 ```sh
 php artisan test --stop-on-failure --testsuite=Webi
+```
+
+### Wyczyść view cache
+
+Po kompilacji projektu Vue wyczyść view cache w Laravel lub gdy występują błędy wczytywania modułów stron w przeglądarce (consola przeglądarki).
+
+```sh
+php artisan view:clear
+php artisan cache:clear
+php artisan config:clear
 ```
 
 ### Pakiety dokumentacja

@@ -1,5 +1,4 @@
 <script setup>
-import '@/assets/panel.css'
 import PanelTitle from '@/components/panel/PanelTitle.vue'
 import PanelPageItem from '@/components/panel/PanelPageItem.vue'
 import Title from '@/components/PageTitle.vue'

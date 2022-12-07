@@ -25,6 +25,15 @@
 	overflow: hidden;
 }
 
+#page-content {
+	max-width: 1280px;
+	min-height: 100vh;
+	margin: 0px auto;
+	padding: 0px 2rem;
+	font-weight: normal;
+	overflow: hidden;
+}
+
 a {
 	text-decoration: none;
 	color: var(--color);

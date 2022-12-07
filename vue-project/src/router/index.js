@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/pages/HomeView.vue'
 import { useAuthStore } from '@/stores/auth.js'
 
 const router = createRouter({
@@ -8,6 +8,7 @@ const router = createRouter({
 	strict: true,
 	sensitive: true,
 	routes: [
+		// Pages
 		{
 			path: '/',
 			name: 'home',
@@ -16,33 +17,33 @@ const router = createRouter({
 		{
 			path: '/about',
 			name: 'about',
-			component: () => import('../views/AboutView.vue'),
+			component: () => import('../views/pages/AboutView.vue'),
 		},
 		// Authentication
 		{
+			path: '/reset-password',
+			name: 'reset-password',
+			component: () => import('../views/auth/ResetView.vue'),
+		},
+		{
 			path: '/login',
 			name: 'login',
-			component: () => import('../views/panel/LoginView.vue'),
+			component: () => import('../views/auth/LoginView.vue'),
 		},
 		{
 			path: '/register',
 			name: 'register',
-			component: () => import('../views/panel/RegisterView.vue'),
-		},
-		{
-			path: '/reset-password',
-			name: 'reset-password',
-			component: () => import('../views/panel/ResetView.vue'),
+			component: () => import('../views/auth/RegisterView.vue'),
 		},
 		{
 			path: '/activate/:id/:code',
 			name: 'activate',
-			component: () => import('../views/panel/ActivateView.vue'),
+			component: () => import('../views/auth/ActivateView.vue'),
 		},
 		{
 			path: '/logout',
 			name: 'logout',
-			component: () => import('../views/panel/LogoutView.vue'),
+			component: () => import('../views/auth/LogoutView.vue'),
 		},
 		// Panel
 		{

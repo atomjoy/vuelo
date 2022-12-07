@@ -1,1 +1,0 @@
-import{f as c,o,c as s,p as _,g as t,d as a}from"../js/index.c2e56a80.js";const d={},r=e=>(_("data-v-983c6944"),e=e(),t(),e),n={class:"loader"},p=r(()=>a("div",{class:"loader-circle"},null,-1)),l=[p];function i(e,f){return o(),s("div",n,l)}const u=c(d,[["render",i],["__scopeId","data-v-983c6944"]]);export{u as L};

@@ -14,7 +14,6 @@ const props = defineProps({
 const title = props.title
 
 onMounted(() => {
-	console.log('Tiyle', title, locale.value)
 	document.title = t(title)
 })
 
@@ -22,7 +21,6 @@ watch(
 	() => locale.value,
 	(lang) => {
 		document.title = t(title)
-		console.log('Title, locale', t(title), lang)
 	}
 )
 </script>

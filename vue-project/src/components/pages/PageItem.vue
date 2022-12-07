@@ -3,7 +3,9 @@ import PageMenu from '@/components/pages/PageMenu.vue'
 </script>
 
 <template>
-	<PageMenu />
+	<div id="page-topbar">
+		<PageMenu />
+	</div>
 
 	<div id="page-content">
 		<slot name="content"></slot>

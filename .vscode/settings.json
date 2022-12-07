@@ -1,6 +1,6 @@
 {
 	// Disable git
-	"git.enabled": false,
+	"git.enabled": true,
 
 	// Php
 	"php.validate.executablePath": "C:/xampp/php/php.exe",

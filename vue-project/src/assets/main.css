@@ -25,6 +25,13 @@
 	overflow: hidden;
 }
 
+#page-topbar {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
 #page-content {
 	max-width: 1280px;
 	min-height: 100vh;

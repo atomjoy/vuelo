@@ -1,9 +1,10 @@
 <script>
 import { defineAsyncComponent } from 'vue'
 import { useAuthStore } from '@/stores/auth.js'
+import TopMenu from '@/components/pages/PageMenu.vue'
 
 export default {
-	name: 'LoadPageComponent',
+	name: 'LoadComponent',
 	props: {
 		name: { type: String, required: true },
 	},
@@ -16,7 +17,7 @@ export default {
 		}
 	},
 	computed: {
-		load() {
+		getComponent() {
 			return defineAsyncComponent(() => import(this.name))
 		},
 	},
@@ -24,12 +25,12 @@ export default {
 </script>
 
 <template>
-	<div :class="{ rightbar: true }">
-		<div id="top-menu">Top menu goes here ...</div>
+	<div :class="{ rightbar: true, showrightbar: auth.visibleSidebar }">
+		<TopMenu />
 
 		<div id="wraper">
 			<keep-alive>
-				<component :is="load"></component>
+				<component :is="getComponent"></component>
 			</keep-alive>
 		</div>
 	</div>

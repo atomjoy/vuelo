@@ -13,9 +13,6 @@ defineProps({
 
 <style scoped>
 h1 {
-	float: left;
-	width: 100%;
-	overflow: hidden;
 	font-weight: 400;
 	font-size: 2.1rem;
 }

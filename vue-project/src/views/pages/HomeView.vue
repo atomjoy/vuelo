@@ -21,8 +21,4 @@ import PageFooter from '@/components/pages/PageFooter.vue'
 	</PageItem>
 </template>
 
-<style>
-p {
-	margin-bottom: 20px;
-}
-</style>
+<style></style>

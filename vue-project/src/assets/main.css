@@ -54,6 +54,10 @@ a {
 	transition: 0.4s;
 }
 
+p {
+	margin-bottom: 20px;
+}
+
 ::placeholder {
 	color: var(--placeholder);
 	font-size: 0.9rem;

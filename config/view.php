@@ -3,7 +3,7 @@
 return [
 
 	// Disable view cache for vue-project
-	'cache' => config('debug'),
+	'cache' => env('VIEW_CACHE', false),
 
 	/*
     |--------------------------------------------------------------------------

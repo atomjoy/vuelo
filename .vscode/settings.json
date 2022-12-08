@@ -98,4 +98,5 @@
 		"*.env": "properties",
 		"*.env.*": "properties"
 	}
+	// "typescript.tsserver.log": "normal"
 }

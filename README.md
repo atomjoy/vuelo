@@ -102,9 +102,12 @@ php artisan cache:clear
 php artisan config:clear
 ```
 
-# Testy logowania aplikacji Laravel
+# Testy logowania api aplikacji Laravel
 
 ```sh
+# Tylko en
+php artisan test --stop-on-failure --testsuite=WebiApi
+# Lub z tłumaczeniami en|pl
 php artisan test --stop-on-failure --testsuite=Webi
 ```
 
